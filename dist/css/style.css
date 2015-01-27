@@ -1,0 +1,87 @@
+/* Delta - Containers Refrigerados */
+
+
+/* Includes */
+
+
+/* @font-face */
+
+
+/***** Global *****/
+
+
+
+/* header */
+
+
+
+/* menu */
+#nav { background: #4f8dc2; height: 70px; border-bottom: 1px solid #fff;}
+ul#menu  li {
+    float: left;
+    display: inline-block;
+    
+}
+
+
+
+ul#menu  li a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #4f8dc2;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  
+
+
+
+
+/* contato */
+
+table.tabela{width:600px;}
+		table.tabela td.bold{font-weight:bold; font-size:14px; font-family:Verdana, Geneva, sans-serif;text-align:right; color: #8ea7a9;}
+		table.tabela td.texto{font-size:14px; font-family:Verdana, Geneva, sans-serif; color:#fff!important;}
+		table.tabela tr.zebra{ background:;}		
+		p.ps{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff; font-weight:bold; }	
+		.azul{color:#fff;}
+ 
+ table.tabela input ,  table.tabela textarea {
+    background: url('../images/bg_input.png') repeat;
+    width: 100%;
+    border: none;
+ }   
+ 
+ table.tabela input {
+    height: 42px;
+    padding-left: 10px;
+     }
+ table.tabela textarea, table.tabela input {
+ }    
+   table.tabela td.azul {
+    padding: 10px;
+    border-style: inset;
+    border: 1px solid rgba(47, 70, 42, 0.5);
+   }
+   table.tabela textarea {
+    height: 80px;
+   }
+   .send {
+    background: #1286ad!important;
+    border: 1px solid #16a5d5!important;
+    cursor: pointer;
+    color: #fff;
+   }
+   .send:hover {
+    background: #78AD12!important;
+    border: 1px solid #95c636!important;
+   }     
+        
+
+
+
+/* footer */
+footer{ width: 100%; height: 60px; background: #67ac44; }
+footer .wrapper{ min-width: 100%; margin: 0 auto; }
+footer p{  text-align: center; line-height: 60px; padding: 0px; margin: 0px; color: #15aeca; font-size: 12px; font-family: verdana, sans-serif; }
+
